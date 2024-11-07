@@ -1,0 +1,47 @@
+.facebook{
+    font-size:90px ;
+    padding: 90px;
+    background-color: ;
+    color: blue;
+    border-radius: 100%;
+    
+    border-color: black;
+}
+.whatsapp{
+    font-size: 100px;
+    background-color: ;
+    color: green;
+    padding: 80px;
+    border: 100px;
+    border-radius: 50%;
+} 
+.twitter{
+    font-size: 90px;
+    background-color: ;
+    color: blue;
+    padding: 80px;
+    border: 100px;
+    border border-radius: 50%;
+    
+}
+.instagram{
+    font-size: 90px;
+    background-color: ;
+    color: rgb(236, 20, 70);
+    padding: 80px;
+    border: 100px;
+    border border-radius: 50%;
+}
+.snapchat{
+    font-size: 90px;
+    color: white;
+
+
+    
+    background-color: yellow;
+    padding: 80px;
+    border: 100px;
+    border border-radius: 50%;
+    
+}
+
