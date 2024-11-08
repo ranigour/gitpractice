@@ -1,0 +1,17 @@
+.container{
+     display: flex;
+     justify-content:  center;
+}
+
+
+.div1,.div2{
+    background-color: gray;
+    height: 400px; width:400px;
+    border: 9px;
+}
+.div , h1{
+    background-color:;
+}
+.div, button{
+    background-color: red;
+}
