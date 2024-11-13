@@ -1,0 +1,18 @@
+
+.container{
+    background-color: blue;
+    padding: 30px;
+    height: 400px;
+    margin-top:150px ;
+}
+.ch{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 40px;
+}
+img{
+    position: sticky;
+    top: 0px;
+}
