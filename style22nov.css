@@ -1,0 +1,21 @@
+#head::first-letter{
+    font-size: 90px;
+    color: blue;
+}
+#head::selection{
+    background-color: yellow;
+}
+.parag::first-line{
+    font-weight: bold;
+}
+input::placeholder{
+    color: #000;
+}
+h2::before{
+    content:"memory " ;
+    color: red;
+}
+h2::after{
+    content:"uniqe " ;
+    color: aquamarine;
+}
