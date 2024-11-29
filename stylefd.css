@@ -1,0 +1,42 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ch{
+    height: 200px;
+    width: 200px;
+    background-color: tan;
+    border: 2px solid;
+}
+.navber{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navber ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navber label{
+    display: none;
+}
+#check:checked~.navber ul{
+    display: block;
+
+}
+@media screen and ( max-width:600px) {
+    .navber label{
+        display: block;
+    }
+    .navber ul{display: none;}
+    
+}
+@media screen and ( max-width: 600px ) {
+    .wrapper{
+        flex-direction: column;
+    }
+    
+}

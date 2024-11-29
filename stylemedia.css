@@ -1,0 +1,24 @@
+body{
+    background-color: red;
+}
+.head{
+    font-size: 50px;
+}
+@media screen and ( 
+    max-widht:470 ) {
+    body{
+        background-color: rgb(10, 8, 20);
+    }
+    .head{
+        font-size: 20px;
+    }
+}
+@media screen  and ( min-width:400px ) and (max-width:800px) {
+    body{
+        background-color: aqua;
+    }
+    .head{
+        color: yellowgreen;
+    }
+    
+}
